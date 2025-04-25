@@ -1,4 +1,4 @@
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: "2010-09-09"
 Description: EC2 in Public and Private Subnets
 
 Parameters:
@@ -21,12 +21,11 @@ Resources:
         - IpProtocol: tcp
           FromPort: 22
           ToPort: 22
-          CidrIp: 0.0.0.0/0 
+          CidrIp: 0.0.0.0/0
         - IpProtocol: tcp
           FromPort: 80
           ToPort: 80
-          SourceSecurityGroupId: sg-07dc96207a4ebfa18
-
+          SourceSecurityGroupId: sg-00000000000 # Replace with your security group ID
 
   PublicInstance:
     Type: AWS::EC2::Instance
@@ -65,4 +64,3 @@ Outputs:
     Value: !Ref PublicInstance
   PrivateInstanceId:
     Value: !Ref PrivateInstance
-
