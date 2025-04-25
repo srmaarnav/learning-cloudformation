@@ -132,3 +132,25 @@ For proper deployment:
 - All templates are configured for us-east-1 region
 - EC2 instances use Amazon Linux 2 AMI
 - Security groups are configured with basic settings and should be modified for production use
+
+## Screenshots
+
+### VPC Setup
+
+![VPC Setup](images/my-vpc-stack.png)
+
+### S3 Bucket
+
+![S3 Bucket](images/s3-stack.png)
+
+### EC2 Instance
+
+![EC2 Instance](images/ec2-stack.png)
+
+### EC2 in VPC
+
+![EC2 in VPC](images/ec2-in-vpc-stack.png)
+
+### Load Balancer
+
+![Load Balancer](images/my-load-balancer-stack.png)
