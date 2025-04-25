@@ -1,0 +1,19 @@
+[
+  {
+    "ParameterKey": "VPCId",
+    "ParameterValue": "vpc-06803c1eae175cb10"
+  },
+  {
+    "ParameterKey": "PublicSubnetId",
+    "ParameterValue": "subnet-07253937dcc1c8494"
+  },
+  {
+    "ParameterKey": "PrivateSubnetId",
+    "ParameterValue": "subnet-00672e0968c4f5091"
+  },
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "vockey"
+  }
+]
+
